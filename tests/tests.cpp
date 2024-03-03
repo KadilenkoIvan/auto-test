@@ -9,3 +9,7 @@ TEST(FirstTest, FuncTests) {
 TEST(SecondTest, ZeroTests){
     ASSERT_EQ(my_zero(), 0);
 }
+
+TEST(TherdTest, CheckActions){
+    EXPECT_EQ(my_sum(2, 2), 5);
+}
